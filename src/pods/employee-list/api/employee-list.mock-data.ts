@@ -1,0 +1,68 @@
+import { Employee } from './employee-list.api-model';
+
+export const mockEmployeeList: Employee[] = [
+  {
+    _id: '1',
+    idMember: '1',
+    active: true,
+    name: 'Daniel Perez',
+    email: 'daniel.perez@empresa.com',
+    lastdate: '02/02/2020',
+  },
+  {
+    _id: '2',
+    idMember: '2',
+    active: true,
+    name: 'Jose Gomez',
+    email: 'jose.gomez@empresa.com',
+    lastdate: '05/02/2020',
+  },
+  {
+    _id: '3',
+    idMember: '3',
+    active: false,
+    name: 'Manuel Ruiz',
+    email: 'manuel.ruiz@empresa.com',
+    lastdate: '06/02/2020',
+  },
+  {
+    _id: '4',
+    idMember: '4',
+    active: true,
+    name: 'Ramón Gomez',
+    email: 'ramon.gomez@empresa.com',
+    lastdate: '02/05/2020',
+  },
+  {
+    _id: '5',
+    idMember: '5',
+    active: false,
+    name: 'María Lopez',
+    email: 'maria.lopez@empresa.com',
+    lastdate: '05/08/2020',
+  },
+  {
+    _id: '6',
+    idMember: '6',
+    active: true,
+    name: 'Manuel Ortiz',
+    email: 'manuel.ortiz@empresa.com',
+    lastdate: '06/06/2020',
+  },
+  {
+    _id: '7',
+    idMember: '7',
+    active: false,
+    name: 'David Martos',
+    email: 'david.martos@empresa.com',
+    lastdate: '14/08/2020',
+  },
+  {
+    _id: '8',
+    idMember: '8',
+    active: true,
+    name: 'Luz Roca',
+    email: 'luz.roca@empresa.com',
+    lastdate: '20/06/2020',
+  },
+];
